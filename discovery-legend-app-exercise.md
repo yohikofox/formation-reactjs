@@ -15,7 +15,7 @@ A la fin de cet exercice vous connaîtrez les bases de Legend App, vous permetta
       3. Une concaténation des deux précédentes valeurs
 
 ### Résultat attendu
-Lorsque vous irez sur la home page de votre application, vous devriez avoir :
+Lorsque vous irez sur la home page de votre application, vous devriez avoir un formulaire avec un champ `input` et un `label` pour les champs `firstname`, `lastname` et une concaténation des deux précédentes valeurs.
 
 ## Partie 2 : Ajouter son premier `observable`
 
@@ -45,14 +45,15 @@ Maintenant tout est synchronisé avec l'observable `person`.
 
 ### La TODO
 
-1. Créer un composant `Firstname` avec un champ `input` et un `label` pour le champ `firstname`
-2. Créer un composant `Lastname` avec un champ `input` et un `label` pour le champ `lastname`
-3. Créer un composant `Fullname` avec un champ de concaténation pour les champs `firstname` et `lastname`
-4. Adapter l'appel des nouveaux composants au `Composant`
+1. Revenez à l'état du composant `Form` de la partie 2
+2. Créer un composant `Firstname` avec un champ `input` et un `label` pour le champ `firstname`
+3. Créer un composant `Lastname` avec un champ `input` et un `label` pour le champ `lastname`
+4. Créer un composant `Fullname` avec un champ de concaténation pour les champs `firstname` et `lastname`
+5. Adapter l'appel des nouveaux composants au `Composant`
 
 ### Résultat attendu
 
-Vous devriez avoir le même résultat qu'à la fin de la partie 2 mais de nouveau, la mise à jour des champs ne fonctionne pas. Pour remédier au problème, chacun des composants doit être `aware`. Un exemple avec le composant `Firstname`
+Vous devriez avoir le même résultat qu'à la fin de la partie 2 mais de nouveau, la mise à jour des champs ne fonctionne pas. Pour remédier au problème, chacun des composants doit être `aware`. Un exemple avec le composant `Firstname`.
 
 ## Partie 5 : Faire que son composant soit `aware`
 
