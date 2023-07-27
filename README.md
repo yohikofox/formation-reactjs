@@ -9,5 +9,7 @@ Ce dépôt ``git`` a pour but de se former aux technologies liées au framework 
 
 ### Ce qui sera traité ici
 
+* Découverte de `context` React
+  * theme: `discover/context`
 * Découverte de Legend App 
   * theme: `discovery/legend-app`
